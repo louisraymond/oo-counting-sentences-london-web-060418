@@ -20,5 +20,3 @@ class String
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
 end
-
-end
